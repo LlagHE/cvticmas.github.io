@@ -1,0 +1,52 @@
+* {
+    font-family: 'Roboto', sans-serif;
+    box-sizing: border-box;
+}
+
+#Foto {
+    width: 200px;
+    height: 200px;
+    margin: auto;
+    display: block;
+}
+
+@media only screen and (max-width: 992px) and (min-width: 768px) {
+    #Foto {
+        width: 150px;
+        height: 150px;
+    }
+}
+
+#photo, #name, #info {
+    background-color: darkslategrey;
+    color: white;
+}
+
+h1 {
+    font-size: 50px;
+    margin-top: 5px;
+    margin-left: 5px;
+    margin-bottom: 5px;
+    margin-right: 5px;
+}
+
+h4 {
+    margin-top: 15px;
+    margin-left: 5px;
+    margin-bottom: 5px;
+    margin-right: 5px;
+}
+
+p {
+    margin-top: 3px;
+    margin-left: 3px;
+    margin-bottom: 3px;
+    margin-right: 3px;
+}
+
+br {
+    content: "";
+    margin: 2em;
+    display: block;
+    font-size: 24%;
+}
